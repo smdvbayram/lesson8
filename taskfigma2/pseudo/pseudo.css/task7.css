@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    background-color: blueviolet;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+.box1{
+    background-color: rgb(194, 84, 84);
+    width: 110px;
+    height: 70px;
+    position: absolute;
+    margin: 150px;
+    text-align: center;
+    transition: all 1s linear;
+
+}
+.box1:hover{
+    background-color: aquamarine;
+}

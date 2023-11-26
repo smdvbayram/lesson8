@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menyu{
+    text-decoration: none;
+    margin: 30px;
+    background-color: rgb(48, 48, 255);
+    width: 750px;
+    border-radius: 10px 5px;
+    -webkit-border-radius: 10px 5px;
+    -moz-border-radius: 10px 5px;
+    -ms-border-radius: 10px 5px;
+    -o-border-radius: 10px 5px;
+}
+.lectus{
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 20px;
+    padding: 15px;
+    color: azure;
+
+}
+.lectus:hover{
+    background-color: rgb(43, 43, 193);
+}
+.netus {
+    margin: 15px;
+    position: absolute;
+    text-decoration: none;
+    display: none;
+    width: 85px;
+    list-style: none;
+    padding: 14px;
+    margin-left: -14px;
+}
+.netus ul{
+    list-style: none;
+}
+.netus li{
+    margin-bottom: 15px;
+}
+.lectus:hover .netus{
+    text-decoration: none;
+    display: block;
+    background-color: rgb(55, 55, 172);
+    transition: all 1s ease;
+}
+.netus {
+}
+

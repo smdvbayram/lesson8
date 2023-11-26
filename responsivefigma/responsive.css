@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 30px 100px;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.head-content{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    
+    /* margin: 40px 40px; */
+
+}
+.head{
+    padding: 20px 0;
+}
+.logo{
+    /* margin-right: 800px; */
+    color: black;
+    font-size: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: var(--Black, #2D2D2D);
+}
+li{
+    /* margin-right: 30px; */
+   
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+    /* margin-right: 10px;  */
+    /* justify-content: end;    */
+}
+.main{
+    display: flex;
+    flex-direction: row;
+
+}
+.first-main{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 100px; */
+    gap: 30px;
+    margin-right: 500px;
+    margin-top: 100px;
+}
+.brand{
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: 30px;
+}
+.visual{
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 60;
+    line-height: normal;
+}
+.text{
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+.second-main{
+    position: relative;
+    top: 50px;
+
+}
+
+.img{
+    position: relative;
+    /* height: 200px; */
+}
+.img1{
+    position: absolute;
+}
+.img2{
+    position: absolute;
+    right: -35px;
+    top: 10px;
+
+}
+.img3{
+    position: absolute;
+   bottom: 64px;
+   left: -50px;
+}
+.sect{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin-top: 99px;
+    /* margin-left: 100px; */
+}
+.sect2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 110px;
+}
+h3{
+    padding-top: 58px;
+    padding-bottom: 19px;
+    font-size: 40px;
+}
+p{
+    width: 190px;
+    margin-left: 120px;
+}
+.art,.pro,.visu{
+    text-align: center;
+}
+.sect4{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+h2{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+}
+.clients{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 3px;
+}
+.form{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.foot{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 190px;
+}
+.let{
+    /* margin-right: 500px; */
+    display: flex;
+    flex-direction: column;
+
+}
+.let-h2{
+    margin-bottom: 20px;
+}
+.let-text{
+    width: 359px;
+}
+.foot-form{
+    display: flex;
+    flex-direction: column;
+}
+input:nth-child(1){
+    background-color: #efefef;
+    margin:  5px;
+    border: none;
+    height: 70px;
+    width: 530px;
+}
+
+input:nth-child(2){
+    background-color: #efefef;
+    margin:  5px;
+    border: none;
+    height: 70px;
+    width: 530px;
+    text-align: calc(10px);
+}
+input:nth-child(3){
+    background-color: #efefef;
+    margin:  5px;
+    border: none;
+    height: 215px;
+    width: 530px;
+}
+button{
+    margin-top: 30px;
+    width: 235px;
+height: 80px;
+flex-shrink: 0;
+background-color: #2D2D2D;
+color: white;
+}
+@media screen and (max-width: 400px){
+    .logo{
+        margin-left: 20px;
+     
+        text-align: center;
+    }
+    .brand{
+        width: 300px;
+
+ 
+    }
+    .about{
+        display: none;
+    }
+    .text{
+        display: flex;
+        flex-direction: row;
+    }
+    .img{
+        position: relative;
+    }
+    .img2{
+        position: absolute;
+        /* margin-left: 130px; */
+        left: 310px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .sect{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 35px;
+    }
+    .sect2{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .sect2-text{
+        margin-left: -15px;
+        margin-bottom: 20px;
+    }
+    .sect4{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1,1fr);
+
+
+    }
+    .form{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+
+    }
+    .foot{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+
+
+    }
+   
+
+
+    
+
+
+}
+    
+
+
+
+
+

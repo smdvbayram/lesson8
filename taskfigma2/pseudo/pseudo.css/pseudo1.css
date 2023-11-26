@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: 50px;
+    transition: all 0.3s ease;
+
+}
+.box:hover{
+    background-color:blue ;
+}

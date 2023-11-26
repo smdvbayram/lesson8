@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.transform1{
+    width: 180px;
+    height: 80px;
+    background-color: rgb(214, 110, 110);
+    color: white;
+    /* text-align: center; */
+    margin: 100px;
+}
+.box{
+    width: 130px;
+    height: 130px;
+    background-color: green;
+    margin: 100px;
+    cursor: pointer;
+}
+.transform1:hover+.box{
+    transform: scale(2);
+
+}

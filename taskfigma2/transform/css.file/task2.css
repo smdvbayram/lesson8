@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.transform1{
+    width: 180px;
+    height: 180px;
+    background-color: rgb(214, 110, 110);
+    text-align: center;
+    margin: 100px;
+    transition: all 1s linear;
+}
+.box{
+    width: 180px;
+    height: 180px;
+    background-color: green;
+    margin: 100px;
+    cursor: pointer;
+    transition: all 1s linear;
+
+}
+.box:hover{
+    transform: rotate(360deg);
+}
+.transform1:hover{
+    transform: rotate(1turn);
+
+}
